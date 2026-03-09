@@ -136,10 +136,11 @@
             border-radius: 15px;
         }
 
-        svg {
-            width: 100%;
-            max-width: 400px;
+        .image-container img {
+            max-width: 100%;
             height: auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
         }
 
         .hearts {
@@ -177,74 +178,7 @@
             <h2>Biliyordum beni sevdiğini! 😊</h2>
             <p>Ben de seni çok seviyorum! 💕</p>
             <div class="image-container">
-                <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
-                    <!-- Arka plan -->
-                    <rect width="400" height="400" fill="#ffe5f0"/>
-                    
-                    <!-- Kız figürü -->
-                    <g id="girl">
-                        <!-- Kız başı -->
-                        <circle cx="150" cy="80" r="25" fill="#f4a460"/>
-                        <!-- Kız saçı -->
-                        <path d="M 125 80 Q 125 50 150 50 Q 175 50 175 80" fill="#8b4513"/>
-                        <!-- Kız gövde -->
-                        <rect x="135" y="110" width="30" height="50" fill="#ff69b4" rx="5"/>
-                        <!-- Kız kollar -->
-                        <rect x="110" y="120" width="25" height="10" fill="#f4a460" rx="5"/>
-                        <rect x="165" y="120" width="25" height="10" fill="#f4a460" rx="5"/>
-                        <!-- Kız bacaklar -->
-                        <rect x="140" y="165" width="8" height="40" fill="#333"/>
-                        <rect x="152" y="165" width="8" height="40" fill="#333"/>
-                        <!-- Kız gözleri -->
-                        <circle cx="145" cy="75" r="3" fill="#000"/>
-                        <circle cx="155" cy="75" r="3" fill="#000"/>
-                        <!-- Kız gülüşü -->
-                        <path d="M 145 85 Q 150 88 155 85" stroke="#000" stroke-width="2" fill="none"/>
-                    </g>
-                    
-                    <!-- Erkek figürü -->
-                    <g id="boy">
-                        <!-- Erkek başı -->
-                        <circle cx="250" cy="80" r="25" fill="#f4a460"/>
-                        <!-- Erkek saçı -->
-                        <path d="M 225 80 Q 225 50 250 50 Q 275 50 275 80" fill="#2c1810"/>
-                        <!-- Erkek gövde -->
-                        <rect x="235" y="110" width="30" height="50" fill="#4169e1" rx="5"/>
-                        <!-- Erkek kollar -->
-                        <rect x="210" y="120" width="25" height="10" fill="#f4a460" rx="5"/>
-                        <rect x="265" y="120" width="25" height="10" fill="#f4a460" rx="5"/>
-                        <!-- Erkek bacaklar -->
-                        <rect x="240" y="165" width="8" height="40" fill="#333"/>
-                        <rect x="252" y="165" width="8" height="40" fill="#333"/>
-                        <!-- Erkek gözleri -->
-                        <circle cx="245" cy="75" r="3" fill="#000"/>
-                        <circle cx="255" cy="75" r="3" fill="#000"/>
-                        <!-- Erkek gülüşü -->
-                        <path d="M 245 85 Q 250 88 255 85" stroke="#000" stroke-width="2" fill="none"/>
-                    </g>
-                    
-                    <!-- Kucaklama pozisyonu - Kollar -->
-                    <g id="embrace">
-                        <!-- Kız sol kolu (dalgalı) -->
-                        <path d="M 125 125 Q 100 120 95 150" stroke="#f4a460" stroke-width="8" fill="none" stroke-linecap="round"/>
-                        <!-- Erkek sağ kolu (dalgalı) -->
-                        <path d="M 275 125 Q 300 120 305 150" stroke="#f4a460" stroke-width="8" fill="none" stroke-linecap="round"/>
-                        
-                        <!-- Kucaklayan kollar -->
-                        <path d="M 165 125 Q 200 130 225 125" stroke="#f4a460" stroke-width="8" fill="none" stroke-linecap="round"/>
-                        <path d="M 235 125 Q 200 130 175 125" stroke="#f4a460" stroke-width="8" fill="none" stroke-linecap="round"/>
-                    </g>
-                    
-                    <!-- Kalpler -->
-                    <g id="hearts">
-                        <!-- Sol taraf kalp -->
-                        <path d="M 100 40 Q 95 35 90 40 Q 85 45 100 55 Q 115 45 110 40 Q 105 35 100 40" fill="#ff1493"/>
-                        <!-- Sağ taraf kalp -->
-                        <path d="M 300 40 Q 295 35 290 40 Q 285 45 300 55 Q 315 45 310 40 Q 305 35 300 40" fill="#ff1493"/>
-                        <!-- Orta kalp -->
-                        <path d="M 200 30 Q 195 25 190 30 Q 185 35 200 45 Q 215 35 210 30 Q 205 25 200 30" fill="#ff69b4"/>
-                    </g>
-                </svg>
+                <img src="/ask.jpg" alt="Sevgi">
             </div>
         </div>
     </div>
